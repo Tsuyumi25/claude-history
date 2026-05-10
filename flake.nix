@@ -18,11 +18,11 @@
         {
           default = pkgs.rustPlatform.buildRustPackage {
             pname = "claude-history";
-            version = "0.1.51";
+            version = "0.1.57";
 
             src = ./.;
 
-            cargoHash = "sha256-dIaKrngvzQDIejKq61oqp5N8xJmnOHbgZFsm+aDlk2U=";
+            cargoHash = "";
 
             # Some tests require filesystem access not available in Nix sandbox
             doCheck = false;
